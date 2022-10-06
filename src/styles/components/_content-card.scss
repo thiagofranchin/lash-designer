@@ -1,0 +1,11 @@
+.content-card {
+  .image-column {
+    overflow-x: hidden;
+    
+    img {
+      @media (min-width: 1400px) { 
+        width: 100%;
+      }
+    }
+  }
+}

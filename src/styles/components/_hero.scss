@@ -1,0 +1,25 @@
+.hero {  
+  height: 500px;
+
+  background-blend-mode: lighten;
+  background-color: #5b186091;
+  background-image: url('../../assets/images/content-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  
+  align-items: center;
+  display: flex;
+
+  .btn-hero {
+    display: block;
+    max-width: 320px;
+  }
+  
+  .whatsapp-btn-hero {
+    margin-right: 5px;
+    position: relative;
+    top: -3px;
+    width: 18px;
+    
+  }
+}

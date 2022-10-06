@@ -1,0 +1,15 @@
+{
+  "name": "lash-designer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/styles/styles.scss:src/assets/css/style.min.css --style compressed",
+    "sass-build": "sass src/styles/styles.scss:src/assets/css/style.min.css --style compressed"
+  },  
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}
